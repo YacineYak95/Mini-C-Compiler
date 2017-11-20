@@ -1,0 +1,25 @@
+ The Symbol Table 
+ Name   Type    Value 
+ i   e    0.000000 
+ e   d    0.000000 
+ d   c    0.000000 
+ c   b    0.000000 
+ b   a    0.000000 
+ a   int    0.000000 
+
+ 
+ 
+ 
+0   t0  +  1.000000  a 
+1   a  =  t0   
+2     CMP  b  a 
+3     GE  6   
+4     =  t1  1 
+5     JMP    7 
+6     =  t1  0 
+7     JZ    11 
+8   t2  +  1.000000  a 
+9   a  =  t2   
+10     JMP    13 
+11   t3  +  1.000000  b 
+12   b  =  t3   

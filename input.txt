@@ -1,0 +1,12 @@
+int main(int F)
+{
+int a,b,c,d,e,i
+
+ a=a+1
+
+if(a<b){
+a=a+1
+}else{
+b=b+1
+}
+}
